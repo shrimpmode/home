@@ -19,7 +19,6 @@ export const Content = () => {
               </a>
               <a href="https://github.com/shrimpmode" target="_blank" rel="noopener noreferrer">
                 <Image src={github} alt="" />
-
               </a>
             </div>
           </div>
