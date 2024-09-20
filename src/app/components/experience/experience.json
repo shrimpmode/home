@@ -1,0 +1,55 @@
+{
+  "experiences": [
+    {
+      "year": 2021,
+      "current": true,
+      "company": "Thoropass",
+      "position": "Software Engineer",
+      "stack": [
+        "Python",
+        "Typescript",
+        "Django",
+        "React",
+        "Postgres",
+        "Graphql"
+      ]
+    },
+    {
+      "year": 2020,
+      "current": false,
+      "company": "Encora",
+      "position": "Software Engineer",
+      "stack": [
+        "Python",
+        "Typescript",
+        "Django",
+        "React",
+        "Postgres",
+        "Graphql"
+      ]
+    },
+    {
+      "year": 2019,
+      "current": false,
+      "company": "Globant",
+      "position": "Software Engineer",
+      "stack": [
+        "React",
+        "Vue",
+        "Node"
+      ]
+    },
+    {
+      "year": 2018,
+      "current": false,
+      "company": "Arya Peru",
+      "position": "Software Developer",
+      "stack": [
+        "React",
+        "Vue",
+        "Nuxt",
+        "Laravel"
+      ]
+    }
+  ]
+}
