@@ -1,19 +1,20 @@
 type SectionProps = {
-    children: React.ReactNode
-    leftSection: React.ReactNode
+  children: React.ReactNode
+  leftSection: React.ReactNode
 }
 export const Section = ({
-                            leftSection,
-                            children }: SectionProps) => {
+  leftSection,
+  children }: SectionProps) => {
 
-    return (
-        <section className='h-screen w-screen flex'>
-            <div className='flex-1 hidden md:block'>
-                {leftSection}
-            </div>
-            <div className='flex-1'>
-                {children}
-            </div>
-        </section>
-    )
+  return (
+    <section className='h-screen w-screen flex'>
+      {leftSection}
+      <div className="hidden md:block flex-1">
+
+      </div>
+      <div className='flex-1 justify-end'>
+        {children}
+      </div>
+    </section >
+  )
 }
