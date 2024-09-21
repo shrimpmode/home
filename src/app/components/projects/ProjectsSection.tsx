@@ -8,7 +8,7 @@ export const ProjectsSection = () => {
       leftSection={
         <LeftSection
           bg='#D5DCEB'
-          title={<div className='text-neutral-700'>Projects</div>}
+          title={<div className='text-neutral-700'>Projects.</div>}
         />
       }
     >

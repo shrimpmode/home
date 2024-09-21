@@ -28,8 +28,9 @@ export const LeftSection = (props: LeftSectionProps) => {
 
     },
     sectionMobile: {
-      width: '50%',
-      opacity: 0
+      width: '100%',
+      opacity: 0,
+      display: 'none'
     },
   }
 
@@ -46,14 +47,14 @@ export const LeftSection = (props: LeftSectionProps) => {
         background: bg,
         position: 'fixed'
       }}
-      initial={{ width: '100%', opacity: 1 }}
+      initial={isMobile ? { width: 0, opacity: 0 } : { width: '100%', opacity: 1 }}
       animate={isMobile ? 'sectionMobile' : 'section'}
       variants={variants}
-      transition={{ duration: .5, delay: .5 }}
+      transition={{ duration: .8, delay: .5 }}
     >
       <motion.div
         variants={item}
-        className='text-7xl lg:text-8xl font-semibold text-neutral-100 break-words'>
+        className='text-6xl lg:text-8xl font-semibold text-neutral-100 break-words'>
         {title}
       </motion.div>
     </motion.div>
