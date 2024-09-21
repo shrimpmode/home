@@ -29,7 +29,6 @@ export const LeftSection = (props: LeftSectionProps) => {
     },
     sectionMobile: {
       width: '100%',
-      // opacity: 0,
       display: 'none'
     },
   }
@@ -50,7 +49,7 @@ export const LeftSection = (props: LeftSectionProps) => {
       initial={isMobile ? { width: 0 } : { width: '100%', opacity: 1 }}
       animate={isMobile ? 'sectionMobile' : 'section'}
       variants={variants}
-      transition={{ duration: 1, delay: isMobile ? .5 : 0 }}
+      transition={{ duration: isMobile ? .3 : .5, delay: isMobile ? .5 : 0 }}
     >
       <motion.div
         variants={item}
