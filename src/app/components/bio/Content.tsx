@@ -53,10 +53,7 @@ export const Content = () => {
             Education
           </div>
           <div className='text-sm'>
-            <span className='font-semibold'> 2014-2018 </span>  BSc Computer Science, Universidad Nacional de Ingenieria, Lima, Peru.
-          </div>
-          <div className='text-sm'>
-            <span className='font-semibold'> 2012-2013 </span> Physics Engineering, Universidad Nacional de Ingenieria, Lima, Peru.
+            BSc Computer Science, Universidad Nacional de Ingenieria, Lima, Peru.
           </div>
         </div>
       </div>
